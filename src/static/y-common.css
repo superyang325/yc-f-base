@@ -1,0 +1,43 @@
+/*select*/
+.y-common-select .ant-select-focused .ant-select-selection{
+    box-shadow:none;
+    border:none;
+    border-bottom: 1px solid #d9d9d9;
+}
+.y-common-select .ant-select-selection .select-option-default{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    color:rgba(60,84,132,1);
+}
+.y-common-select .ant-select-selection .ant-select-selection__rendered{
+    margin-right:0;
+}
+.y-common-select .ant-select-arrow{
+    right: 8px;
+}
+.y-common-select .ant-select-selection-selected-value{
+    width: 100%;
+    text-align: left;
+}
+.y-common-dropdown li{
+    padding-left:5px;
+    padding-right:0;
+    text-align: left;
+}
+
+/*input*/
+.y-common-input .ant-form-item .form-item-wrap input{
+    margin-left: 0 !important;
+}
+
+
+/*date-single*/
+.user360-date input{
+    border-bottom: 1px solid #3366FF;
+}
+.user360-date .ant-calendar-picker-clear{
+    right:6px;
+}
+.user360-date .ant-calendar-picker-icon{
+    right:6px;
+}

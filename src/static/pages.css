@@ -1,0 +1,234 @@
+/*页面级的样式*/
+.viewmode_input_ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* input 组件*/
+
+.customer_header_editmode_input .form-item-wrap input{
+    padding-top:0 !important;
+    padding-right:20px !important;
+    padding-left:0 !important;
+    padding-bottom:6px;
+}
+.customer_header_editmode_linkmanname_input{
+    height:38px;
+    line-height:37px;
+}
+
+.customer_header_viewmode_linkmanName_input{
+    font-size:28px;
+    font-family:MicrosoftYaHei-Bold,MicrosoftYaHei;
+    font-weight:bold;
+    color:rgb(233, 203, 203);
+}
+
+.customer_header_editmode_linkmanname_input .form-item-wrap input{
+    font-size:28px;
+    font-family:MicrosoftYaHei-Bold,MicrosoftYaHei;
+    font-weight:bold;
+    color:rgb(233, 203, 203);
+}
+
+.customer_header_editmode_linkmanname_input .ant-form-item-control-wrapper{
+    margin-left:0 !important;
+}
+
+.customer_header_gender_select_width .form-item-wrap input{
+    width:84px;
+}
+/*页面应使用字体、字号、颜色*/
+.page_defaultFont{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    color:rgba(60,84,132,1);
+}
+/*输入框后的字数统计*/
+.page_defaultFont .ant-input-suffix{
+    font-size: 12px;
+    font-family:MicrosoftYaHei;
+    color:rgba(36,48,96,1);
+}
+
+/*性别 start ----------------*/
+.customer_header_gender_select{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    color:rgba(255,255,255,1);
+}
+.customer_header_gender_select .ant-select-enabled { /*下拉收起*/
+    font-size:18px;
+    font-family:MicrosoftYaHei-Bold,MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.customer_header_gender_select .ant-select-enabled .ant-select-arrow{ /*下拉收起*/
+    display: none ;
+}
+.customer_header_gender_select .ant-select-enabled .ant-select-selection-selected-value { /*下拉收起*/
+    font-weight:bold;
+    text-overflow:unset;
+}
+.customer_header_gender_select .ant-select-enabled .custome-header-gender-option { /*下拉收起*/
+    font-size:18px;
+    font-family:MicrosoftYaHei-Bold,MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.customer_header_gender_select .ant-select-enabled.ant-select-open .custome-header-gender-option { /*下拉收起*/
+    font-size:12px;
+    font-weight:normal;
+    color:rgba(255,255,255,1);
+}
+.customer_header_gender_select .ant-select-enabled.ant-select-open .ant-select-selection { /*下拉展开*/
+    border-bottom: 1px solid #5C6F8E !important;
+}
+.customer_header_gender_select .ant-select-open { /*下拉展开*/
+    font-size: 12px;
+    font-family:MicrosoftYaHei;
+    color:rgba(255,255,255,1);
+}
+.customer_header_gender_select .ant-select-open span{ /*下拉展开*/
+    font-weight: bold;
+}
+.customer_header_gender_select .ant-select-open .ant-select-arrow{ /*下拉展开*/
+    display: inline-block;
+}
+
+.customer_header_gender_select_width{
+    width:60px !important;
+    top: 0px;
+    left:-30px !important;
+}
+
+/*页头下拉弹框的默认select-option的样式*/
+ .select-option-default{
+    font-size: 14px;
+}
+.customer-header-gender-select .custome-header-gender-option{
+    font-size: 12px;
+}
+
+/*select下拉框已选项*/
+.ant-select-dropdown-menu-item-selected{
+    color: #3366FF !important;
+}
+/*select下拉框已选项*/
+.custom-header-district .ant-cascader-menu-item-active{
+    color: #3366FF !important;
+}
+.custom-header-district-show .ant-cascader-picker-label{
+    width: 97%;
+}
+
+/*性别 end------------------------*/
+
+/*会员级别 start -----------------*/
+.customer_header_customerlevel_viewmode{
+    position: relative;
+    bottom: 15px;
+}
+.customer_header_customerlevel_viewmode .ant-select-open .ant-select-up{ /*下拉展开*/
+    display: inline-block;
+}
+/*会员级别 end -----------------*/
+
+/*地区 start -----------------*/
+.customer_header_common_editmode{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    color:rgba(132,156,192,1);
+    /* width: 56px !important; */
+    position: relative;
+    /* left: 113px; */
+    bottom: 8px;
+}
+.customer_header_common_editmode .ant-cascader-picker-label{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    color:rgba(132,156,192,1) !important;
+    display: inline-block;
+    padding: 0;
+}
+.customer_header_common_editmode .ant-cascader-picker-arrow{ /*箭头*/
+    right: 0;
+}
+.customer_header_common_editmode .ant-cascader-picker-clear{ /*清除按钮*/
+    color: transparent;
+}
+.customer_header_common_editmode .ant-cascader-picker-default { /*默认宽度*/
+    width: 146px;
+    /* left: 113px; */
+    right:-35px;
+}
+
+.customer_header_common_editmode .ant-cascader-picker-default .ant-cascader-picker-arrow { /*默认宽度*/
+    display: none;
+}
+.customer_header_common_editmode .ant-cascader-picker-default .ant-cascader-input{ 
+    border-bottom: 0 !important;
+}
+.customer_header_common_editmode .ant-cascader-picker-default.ant-cascader-picker-focused .ant-cascader-input{
+    border-bottom: 1px solid #5C6F8E !important;
+}
+.customer_header_common_editmode .ant-cascader-picker-default.ant-cascader-picker-focused { /*展开宽度*/
+    width: 146px;
+    left: 21px;
+}
+.customer_header_common_editmode .ant-cascader-picker-default.ant-cascader-picker-focused .ant-cascader-picker-label{
+    color:#fff !important;
+}
+.customer_header_common_editmode .ant-cascader-picker-default.ant-cascader-picker-focused .ant-input{
+    box-shadow:0 0 0 0;
+}
+
+.customer_header_common_editmode .ant-cascader-picker-focused{ /*编辑态*/
+    width: 146px;
+}
+.customer_header_common_editmode .ant-cascader-picker-focused .ant-cascader-picker-arrow{ /*编辑态*/
+   display: inline-block;
+}
+.customer_header_common_editmode .ant-cascader-picker-focused .ant-cascader-picker-arrow svg{ /*编辑态*/
+   color: #fff !important;
+}
+
+/*日期控件*/
+.query-date .y-data-between .ant-calendar-picker-input{
+    color: #3c5484;
+}
+.query-date .y-data-between.component-view .ant-calendar-picker-icon{
+    display: none;
+}
+
+
+
+/*地区 end -----------------*/
+
+/*modal弹框x号*/
+.modal-form-custom-detail .ant-modal-close .anticon svg{
+    color: #fff;
+}
+
+/*textarea start-------------------*/
+
+.modal-custom-detail .y-form-item-textarea .ant-form-item-control-wrapper{
+    width: 661px;
+    display: inline-block;
+}
+.modal-custom-detail .y-form-item-textarea .ant-form-item-control-wrapper textarea{
+    color: #3c5484;
+    font-size: 14px;
+    font-family:MicrosoftYaHei;
+}
+/*textarea end-------------------*/
+
+/*客户卡片页input输入框的非编辑态-- start*/
+.customer_header_viewmode_input.customer_header_viewmode_businessName_input{
+    padding-left: 12px;
+}
+.customer_header_viewmode_input.customer_header_viewmode_businessAmount_input{
+    padding-left: 12px;
+}
+/*客户卡片页input输入框的非编辑态-- end*/

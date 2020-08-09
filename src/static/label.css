@@ -1,0 +1,190 @@
+.label-c-1{
+    border: 1px solid #85A3FF;
+    background: #EFF3FF;
+    color: #3366FF;
+}
+.label-c-1:hover{
+    background: #D6E0FF;
+}
+.label-c-1.label-active{
+    border: 1px solid #3366FF;
+    background: #3366FF;
+    color: #FFFFFF;
+}
+
+.label-c-2{
+    border: 1px solid #FFD591;
+    background: #FFF7E6;
+    color: #FA8C15;
+}
+.label-c-2:hover{
+    background: #FFEED3;
+}
+.label-c-2.label-active{
+    border: 1px solid #FA8C15;
+    background: #FA8C15;
+    color: #FFFFFF;
+}
+
+.label-c-3{
+    border: 1px solid #91D5FF;
+    background: #E6F7FF;
+    color: #339DFF;
+}
+.label-c-3:hover{
+    background: #D3EEFF;
+}
+.label-c-3.label-active{
+    border: 1px solid #339DFF;
+    background: #339DFF;
+    color: #FFFFFF;
+}
+
+.label-c-4{
+    border: 1px solid #D3ADF7;
+    background: #F9F0FF;
+    color: #712ED1;
+}
+.label-c-4:hover{
+    background: #EDDEFC;
+}
+.label-c-4.label-active{
+    border: 1px solid #712ED1;
+    background: #712ED1;
+    color: #FFFFFF;
+}
+
+.label-c-5{
+    border: 1px solid #65CB34;
+    background: #F6FEED;
+    color: #52C41A;
+}
+.label-c-5:hover{
+    background: #E0F5D6;
+}
+.label-c-5.label-active{
+    border: 1px solid #52C41A;
+    background: #52C41A;
+    color: #FFFFFF;
+}
+
+.label-c-6{
+    border: 1px solid #FFA39E;
+    background: #FFF1F0;
+    color: #F74851;
+}
+.label-c-6:hover{
+    background: #FDDADC;
+}
+.label-c-6.label-active{
+    border: 1px solid #F74851;
+    background: #F74851;
+    color: #FFFFFF;
+}
+
+.label-c-7{
+    border: 1px solid #81D4F9;
+    background: #ECF7FE;
+    color: #2DB7F5;
+}
+.label-c-7:hover{
+    background: #DEF3FD;
+}
+.label-c-7.label-active{
+    border: 1px solid #2DB7F5;
+    background: #2DB7F5;
+    color: #FFFFFF;
+}
+
+.label-c-8{
+    border: 1px solid #FFE58F;
+    background: #FFFBE6;
+    color: #FAAD15;
+}
+.label-c-8:hover{
+    background: #FEF3DE;
+}
+.label-c-8.label-active{
+    border: 1px solid #FAAD15;
+    background: #FAAD15;
+    color: #FFFFFF;
+}
+
+.label-disable{
+    border: 1px solid #DBE0E7;
+    background: #F8F8F8;
+    color: #849CC0;
+    cursor: not-allowed;
+}
+.label-disable:hover{
+    background: #F8F8F8;
+}
+.label-disable.active{
+    border: 1px solid #DBE0E7;
+    background: #F8F8F8;
+    color: #849CC0;
+}
+.label-disable .label-close{
+    cursor: not-allowed;
+}
+
+.label-item{
+    font-size: 12px;
+    line-height: 16px;
+    height: 24px;
+    padding: 3px 12px 5px 12px;
+    display: inline-block;
+    border-radius: 2px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+.label-c-1 .label-close{
+    background: url('./label-img/1.png');
+    background-size: 8px 8px;
+}
+.label-c-2 .label-close{
+    background: url('./label-img/2.png');
+    background-size: 8px 8px;
+}
+.label-c-3 .label-close{
+    background: url('./label-img/3.png');
+    background-size: 8px 8px;
+}
+.label-c-4 .label-close{
+    background: url('./label-img/4.png');
+    background-size: 8px 8px;
+}
+.label-c-5 .label-close{
+    background: url('./label-img/5.png');
+    background-size: 8px 8px;
+}
+.label-c-6 .label-close{
+    background: url('./label-img/6.png');
+    background-size: 8px 8px;
+}
+.label-c-7 .label-close{
+    background: url('./label-img/7.png');
+    background-size: 8px 8px;
+}
+.label-c-8 .label-close{
+    background: url('./label-img/8.png');
+    background-size: 8px 8px;
+}
+.label-disable .label-close{
+    background: url('./label-img/g.png');
+    background-size: 8px 8px;
+}
+.label-active .label-close{
+    background: url('./label-img/w.png');
+    background-size: 8px 8px;
+}
+.label-close{
+    width: 8px;
+    height: 8px;
+    margin-left: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+/* .label-no-close .label-close{
+    display: none;
+} */

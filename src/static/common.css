@@ -1,0 +1,752 @@
+/* 全局通用样式表 */
+.mt10{
+    margin-top: 10px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.w36{
+    width: 36px;
+}
+.w180{
+    width: 180px;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.ellipsis{
+    overflow:hidden; white-space:nowrap; text-overflow:ellipsis;
+}
+.clicked-color{
+    color: red!important;
+}
+.clear{
+    zoom: 1;
+}
+.clear:after{
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    visibility:hidden;
+    clear:both;
+}
+.pointer{
+  cursor: pointer;
+}
+
+
+.ant-select[abc="全部"] .ant-select-selection-selected-value{
+    opacity: 0 !important;
+}
+.ant-table-thead th{
+    color: #3C5484!important;
+    font-weight: bold!important;
+}
+.y-treeselect .ant-form-item-control{
+    line-height: 14px!important;
+}
+.y-treeselect .vue-treeselect__control{
+    line-height: 14px!important;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: -1px;
+    height: 32px;
+}
+
+/*分页器上下间距*/
+.ant-table-pagination.ant-pagination{
+  margin:8px 0 !important;
+}
+.ant-table-pagination.ant-pagination .ant-pagination-item{
+  border-radius: 0 !important;
+  border:1px solid #EAEEF4 !important;
+}
+.ant-table-pagination.ant-pagination .ant-pagination-prev{
+  border-radius:0 !important;
+}
+.ant-table-pagination.ant-pagination .ant-pagination-prev a{
+  border-radius:0 !important;
+}
+.ant-table-pagination.ant-pagination .ant-pagination-next{
+  border-radius:0 !important;
+}
+.ant-table-pagination.ant-pagination .ant-pagination-next a{
+  border-radius:0 !important;
+}
+.ant-table-pagination.ant-pagination .ant-select-selection{
+  border-radius:0 !important;
+
+}
+/*star*/
+.star{
+  background:url(./user360-img/like_title.png) no-repeat 0 0;
+}
+/*table 表格行背景色*/
+.y-table-list-row-color1{   /*跟进中 绿色*/
+  background-color: #F1FBF0;
+}
+.y-table-list-row-color2{   /*成交 蓝色*/
+  background-color: #DBF1FF;
+}
+.y-table-list-row-color5{   /*待跟进 白色*/
+  background-color: #FFFFFF;
+}
+.y-table-list-row-color3{   /*战败 红色*/
+  background-color: #FFF6F7;
+}
+.y-table-list-row-color4{   /*无效 灰色*/
+  background-color: #F8F8F8;
+}
+/*性别图标*/
+.gender_male{
+  background:url(./user360-img/male.png) no-repeat 0 0;
+}
+.gender_female{
+  background:url(./user360-img/female.png) no-repeat 0 0;
+}
+
+
+
+/*查询区公共样式----------start------------*/
+
+.query-zone {
+    overflow: hidden;
+    width: 100%;
+    /* padding-top: 8px; */
+    padding-left: 0;
+    padding-bottom: 8px;
+  }
+  .query-zone .ant-form {
+    display: inline-block;
+    max-width: 100%;
+    float: left;
+  }
+  .query-zone .query-zone-item {
+    float: left;
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 0;
+    margin-top: 8px;
+  }
+  .query-zone .query-zone-item .ant-form-item-control {
+    /**/
+  
+    line-height: 1;
+  }
+  .query-zone .query-zone-title {
+    float: left;
+    display: inline-block;
+    padding: 8px;
+    height: 32px;
+    line-height: 1;
+    background: #fff;
+    border: 1px solid #dbe0e7;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #3c5484;
+    border-radius: 0 !important;
+  }
+  .query-zone .query-input {
+    display: inline-block;
+    margin-bottom: 0;
+    width: 144px;
+    position: relative;
+    left: -1px;
+  }
+  .query-zone .query-input input {
+    border-radius: 0 !important;
+  }
+  .query-zone .query-select {
+    display: inline-block;
+    margin-bottom: 0;
+    width: 144px;
+    position: relative;
+    left: -1px;
+  }
+  .query-zone .query-select .ant-select-selection {
+    border-radius: 0 ;
+  }
+  .query-zone .query-select.bg-gray .ant-select-selection {
+    /* background-color: #f2f5fa; */
+    background-color: #fff;
+    color: #3c5484;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+  }
+  .query-zone .query-date {
+    display: inline-block;
+    margin-bottom: 0;
+    position: relative;
+    left: -1px;
+  }
+  .query-zone .query-date .ant-calendar-picker-input {
+    border-radius: 0;
+  }
+  
+  
+/*查询区公共样式----------end------------*/
+
+
+/*--list.vue--start*/
+.a-col-btns{
+    margin-top:8px;
+}
+.a-col-btns-span4{
+    margin-top:8px;
+}
+.a-col-btns-span4 .ant-btn-primary{
+    margin-right: 8px;
+}
+/*--list.vue--end*/
+
+
+.ant-form-item-label label::after{
+    content: ''!important;
+}
+.ant-menu-vertical{
+    padding: 8px 0!important;
+}
+.ant-menu-vertical .ant-menu-item{
+    height: 32px!important;
+    line-height: 32px!important;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
+
+/*添加/编辑弹框公共样式----------start------------*/
+
+/*单列弹框*/
+/*给a-modal定义class，名为modal-form-sigle*/
+.modal-form-sigle {
+    width: 400px !important;
+  }
+  .modal-form-sigle .ant-modal-content {
+    width: 400px;
+    border-radius: 0px;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-header {
+    padding: 20px 40px;
+    height: 60px;
+    line-height: 1;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-header .ant-modal-title {
+    color: #3C5484;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: bold;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body {
+    height: 432px;
+    padding-top: 8px;
+    padding-right: 28px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+    /*title与输入框在同一行*/
+  .modal-form-sigle .ant-modal-content .ant-modal-body .ant-form-item {
+    margin-bottom: 12px;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body .ant-form-item .ant-form-item-label label {
+    color: #3C5484;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body .ant-form-item-oneline {
+    /*title和表单域是一行*/
+  
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body .ant-form-item-oneline .ant-form-item {
+    margin-bottom: 0px;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body .ant-form-item-label {
+    height: 32px;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body .vue-treeselect__control {
+    border-radius: 0;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body .ant-input {
+    border-radius: 0;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body .ant-input-number {
+    border-radius: 0;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body .ant-select-selection {
+    border-radius: 0;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body .loginName-title {
+    display: block;
+    overflow: hidden;
+    height: 32px;
+    line-height: 39.9999px;
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: middle;
+    color: #3C5484;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body .loginName-value {
+    display: block;
+    overflow: hidden;
+    line-height: 39.9999px;
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: middle;
+    color: #3C5484;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    padding-right: 2px;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-body::-webkit-scrollbar-thumb {
+    background: #DBE0E7 !important;
+    border-radius: 10px;
+    border: 0;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-footer {
+    height: 72px;
+    line-height: 1;
+  }
+  .modal-form-sigle .ant-modal-content .ant-modal-footer > div {
+    padding-right: 24px;
+    position: relative;
+    top: 9.5px;
+  }
+  
+  .modal-form-sigle .ant-modal-content .ant-modal-footer .ant-btn.ant-btn-primary[disabled] {
+    color: #fff;
+    background-color: #84A3FF;
+    border: 1px solid transparent;
+  }
+  
+  
+
+/*两列弹框*/
+/*给a-modal定义class，名为modal-form-double*/
+.modal-form-double {
+    width: 760px !important;
+}
+.modal-form-double .ant-modal-content {
+  width: 760px;
+  border-radius: 0px;
+}
+.modal-form-double .ant-modal-content .ant-modal-header {
+  padding: 20px 40px;
+  height: 60px;
+  line-height: 1;
+}
+.modal-form-double .ant-modal-content .ant-modal-header .ant-modal-title {
+  color: #3C5484;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-weight: bold;
+}
+.modal-form-double .ant-modal-content .ant-modal-body {
+  height: 460px;
+  padding-top: 8px;
+  padding-right: 28px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .business-info{
+  margin-bottom: 22px;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .ant-form-item {
+  margin-bottom: 12px;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .ant-form-item .ant-form-item-label label {
+  color: #3C5484;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+}
+.modal-form-double .ant-modal-content .ant-modal-body .ant-form-item-oneline {
+  /*title和表单域是一行*/
+
+}
+.modal-form-double .ant-modal-content .ant-modal-body .ant-form-item-oneline .ant-form-item {
+  margin-bottom: 0px;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .ant-form-item-label {
+  height: 32px;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .vue-treeselect__control {
+  border-radius: 0;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .ant-input {
+  border-radius: 0;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .ant-input-number {
+  border-radius: 0;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .ant-select-selection {
+  border-radius: 0;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .a-row-district .ant-col-4 {
+  width: 100%;
+  text-align: left;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .a-row-district .ant-col-8 {
+  width: 100%;
+  text-align: left;
+}
+.modal-form-double .ant-modal-content .ant-modal-body .loginName-title {
+  display: block;
+  overflow: hidden;
+  height: 32px;
+  line-height: 39.9999px;
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: middle;
+  color: #3C5484;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+}
+.modal-form-double .ant-modal-content .ant-modal-body .loginName-value {
+  display: block;
+  overflow: hidden;
+  line-height: 39.9999px;
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: middle;
+  color: #3C5484;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+}
+.modal-form-double .ant-modal-content .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  padding-right: 2px;
+}
+.modal-form-double .ant-modal-content .ant-modal-body::-webkit-scrollbar-thumb {
+  background: #DBE0E7 !important;
+  border-radius: 10px;
+  border: 0;
+}
+.modal-form-double .ant-modal-content .ant-modal-footer {
+  height: 72px;
+  line-height: 1;
+}
+.modal-form-double .ant-modal-content .ant-modal-footer > div {
+  padding-right: 24px;
+  position: relative;
+  top: 9.5px;
+}
+.modal-form-double .ant-modal-content .ant-modal-footer .ant-btn.ant-btn-primary[disabled] {
+  color: #fff;
+  background-color: #84A3FF;
+  border: none;
+}
+
+/*添加客户弹框*/
+.modal-form-custom {
+  width: 799px !important;
+  height: 552px !important;
+}
+.modal-form-custom .ant-modal-content {
+  width: 799px;
+  border-radius: 0px;
+}
+.modal-form-custom .ant-modal-content .ant-modal-body{
+  padding-left:20px;
+  padding-right:20px;
+}
+.modal-form-custom .ant-modal-content .ant-modal-body .ant-form{
+  margin-right:0;
+}
+.modal-form-custom .ant-modal-content .ant-modal-body .ant-row{
+  margin-left:0 !important;
+  margin-right:0 !important;
+}
+.modal-form-custom .ant-modal-content .ant-modal-body .ant-col-7{
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.modal-form-custom .ant-modal-content .ant-modal-body .ant-col-8{
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.modal-form-custom .ant-modal-content .ant-modal-body .ant-col-9{
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.modal-form-custom .ant-modal-content .ant-modal-body .ant-col-10{
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.modal-form-custom .ant-modal-content .ant-modal-body .ant-col-12{
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.modal-form-custom .ant-modal-content .ant-modal-body .ant-col-17{
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.modal-form-custom .ant-modal-content .ant-modal-body .ant-col-24{
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.modal-form-custom .ant-modal-content .ant-modal-header{
+  padding:14px 20px;
+}
+.modal-form-custom .ant-form-item-required::before{
+  font-size:13px;
+  margin-right:1px;
+}
+/*添加客户弹框 --end*/
+
+/*客户卡片弹框 --start*/
+.modal-form-custom-detail{
+  width: 828px !important;
+  height: 552px !important;
+}
+
+.modal-form-custom-detail .ant-modal-content {
+  width: 800px;
+  height: 552px !important;
+  border-radius: 0px;
+}
+.modal-form-custom-detail .ant-modal-body {
+  padding:0;
+}
+
+/*客户卡片弹框 --end*/
+
+
+/*添加/编辑弹框公共样式----------end------------*/
+
+.input-hide{
+  display: none;
+}
+.unset-width .ant-form-item-label{
+  width: unset;
+}
+.no-required-icon .ant-form-item-required::before{
+  display: none;
+  content: '';
+}
+
+.component-input-with-help .ant-form-item-control-wrapper{
+  padding-right: 0px;
+}
+.component-input-with-help .anticon-question-circle{
+  color: red;
+  cursor: pointer;
+}
+.component-input-with-help .ant-tooltip-open{
+  color: green;
+}
+.component-in-help{
+  position: absolute;
+  right: -20px;
+  top: 3px;
+}
+
+
+/*表单组件prefix 图标--start*/
+.file-icon{
+  display: inline-block;
+  width: 21px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center 9px;
+}
+.pre-icon-name{
+  background-image: url(./user360-img/file-icons/icon-name.png);
+}
+.pre-icon-phone{
+  background-image: url(./user360-img/file-icons/icon-phone.png);
+}
+.pre-icon-gender{
+  background-image: url(./user360-img/file-icons/icon-gender.png);
+}
+.pre-icon-id{
+  background-image: url(./user360-img/file-icons/icon-id.png);
+}
+.pre-icon-srxx{
+  background-image: url(./user360-img/file-icons/icon-srxx.png);
+}
+.pre-icon-wechat{
+  background-image: url(./user360-img/file-icons/icon-wechat.png);
+}
+.pre-icon-khzt{
+  background-image: url(./user360-img/file-icons/icon-khzt.png);
+}
+.pre-icon-khly{
+  background-image: url(./user360-img/file-icons/icon-khly.png);
+}
+.pre-icon-hylx{
+  background-image: url(./user360-img/file-icons/icon-hylx.png);
+}
+.pre-icon-district{
+  background-image: url(./user360-img/file-icons/icon-district.png);
+}
+.pre-icon-bz{
+  background-image: url(./user360-img/file-icons/icon-bz.png);
+}
+.pre-icon-moreinfo{
+  background-image: url(./user360-img/file-icons/icon-moreinfo.png);
+}
+.pre-icon-email{
+  background-image: url(./user360-img/file-icons/icon-email.png);
+}
+.pre-icon-address{
+  background-image: url(./user360-img/file-icons/icon-address.png);
+}
+
+.pre-icon-sjname{
+  background-image: url(./user360-img/file-icons/icon-sjname.png);
+}
+.pre-icon-sjjb{
+  background-image: url(./user360-img/file-icons/icon-sjjb.png);
+}
+.pre-icon-date-deal{
+  background-image: url(./user360-img/file-icons/icon-date-deal.png);
+}
+.pre-icon-date-get{
+  background-image: url(./user360-img/file-icons/icon-date-get.png);
+}
+.pre-icon-price{
+  background-image: url(./user360-img/file-icons/icon-price.png);
+}
+.pre-icon-bussiorigin{
+  background-image: url(./user360-img/file-icons/icon-bussiorigin.png);
+}
+.pre-icon-status{
+  background-image: url(./user360-img/file-icons/icon-status.png);
+}
+.pre-icon-clerk{
+  background-image: url(./user360-img/file-icons/icon-clerk.png);
+}
+/*表单组件prefix 图标--end*/
+
+
+/* input组件样式 -- start*/
+/*视图态*/
+.component-input.component-view{
+  margin-bottom:0px !important;
+  float: left;
+}
+.component-input.component-view .ant-form-item-label{
+  margin-left: 8px;
+  width: 56px;
+}
+.component-input.component-view .ant-form-item-label label{
+  width: 56px;
+  text-align: left;
+  color:#3366FF;
+}
+.component-input.component-view .ant-form-item-control-wrapper{
+  margin-left: 12px;
+}
+.component-input.component-view .query-input{
+  width: auto;
+}
+.component-input.component-view input{
+  width: 112px;
+  font-size:14px;
+  font-family:MicrosoftYaHei;
+  color:rgba(60,84,132,1);
+}
+.component-input.component-view{
+  border: none;
+}
+.component-input.component-view input{
+  font-family:MicrosoftYaHei;
+  color:rgba(60,84,132,1);
+}
+/*编辑态*/
+.component-input.component-edit{
+  margin-bottom:0px !important;
+  float: left;
+}
+.component-input.component-edit .ant-form-item-label{
+  margin-left: 8px;
+  width: 56px;
+}
+.component-input.component-edit .ant-form-item-label label{
+  width: 56px;
+  text-align: left;
+  color:#3366FF;
+}
+.component-input.component-edit .ant-form-item-control-wrapper{
+  margin-left: 12px;
+}
+.component-input.component-edit input{
+  width: 112px;
+  font-size:14px;
+  font-family:MicrosoftYaHei;
+  color:rgba(60,84,132,1);
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  /* border-bottom:1px solid #3366FF; */
+}
+/* input组件样式 -- end*/
+
+
+/*select 组件样式 -- start*/
+.query-select .component-edit{
+  margin-bottom:0px !important;
+  float: left;
+}
+.query-select .component-edit .ant-select-selection{
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+}
+
+.query-select .component-edit .ant-form-item-label{
+  margin-left: 8px;
+  width: 56px;
+}
+.query-select .component-edit .ant-form-item-label label{
+  width: 56px;
+  text-align: left;
+  color: #3366FF;
+}
+
+.query-select .component-edit .ant-form-item-control-wrapper{
+  margin-left: 12px;
+}
+.query-select .component-edit .ant-select{
+  width: 112px;
+}
+
+.query-select .component-view .ant-select-selection{
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.query-select .component-view .ant-select-arrow{
+  display: none;
+}
+
+
+/*select 组件样式 -- end*/
+
+
+/*select .ant-select-dropdown*/
+.ant-select-dropdown{
+  border-radius: 0 !important;
+}
